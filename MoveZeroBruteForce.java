@@ -1,4 +1,4 @@
-//Leetcode's Move Zero problem where we need to move the 0's in the array to the last of array keeping it's relative order as it is. I have solved it using both approaches Brute Force(O(n^2)) and Optimized(O(n)) in Java.
+//Leetcode's Move Zero problem where we need to move the 0's in the array to the last of array keeping it's relative order as it is. I have solved it using both approaches Brute Force(O(n)){Using extra array} and Optimized(O(n)) in Java.
 class Solution {
     public void moveZeroes(int[] nums) {
         int[] temp= new int[nums.length];
